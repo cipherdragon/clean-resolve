@@ -1,0 +1,22 @@
+{
+  "name": "synk",
+  "version": "1.0.0",
+  "description": "A tiny TS package to make it easier to work with async functions.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cipherdragon/synk.git"
+  },
+  "keywords": [
+    "async"
+  ],
+  "author": "Adeepa Gunathilake",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cipherdragon/synk/issues"
+  },
+  "homepage": "https://github.com/cipherdragon/synk#readme"
+}
