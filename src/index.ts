@@ -4,8 +4,9 @@ class PromiseRejection<T> extends Error {
 
         if (error instanceof Error) {
             this.message = error.message;
-            this.cause = error.cause;
             this.stack = error.stack;
+            this.cause = error.cause;
+            this.name = error.name;
         }
     }
 }
