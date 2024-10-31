@@ -30,6 +30,13 @@ async function fetchData() {
 }
 ```
 
+What this solves?
+
+When using this pattern, you don't have to wrap the `await` statement in a
+try-catch block. If the promise gets rejected, you'll get the error in the
+returned value. Otherwise, you'll get the resolved value. To check if the
+promise got rejected, you can use `synk.notOk(result)`.
+
 ## API
 
 ### `synk<T, K = Error>(promise: Promise<T>): Promise<T | PromiseRejection<K>>`
