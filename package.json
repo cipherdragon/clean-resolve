@@ -2,9 +2,13 @@
   "name": "synk",
   "version": "1.0.0",
   "description": "A tiny TS package to make it easier to work with async functions.",
-  "main": "index.ts",
+  "main": "dist/index.ts",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "npm run test"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -18,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/cipherdragon/synk/issues"
   },
-  "homepage": "https://github.com/cipherdragon/synk#readme"
+  "homepage": "https://github.com/cipherdragon/synk#readme",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
 }
