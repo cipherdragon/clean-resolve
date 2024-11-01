@@ -1,12 +1,10 @@
 {
   "name": "clean-resolve",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A tiny TS package to make it easier to work with async functions.",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "build": "tsc"
   },
